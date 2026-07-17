@@ -2076,7 +2076,7 @@ self.instance.move(ePoint(orgpos.x() + (orgwidth - newwidth) // 2, orgpos.y() + 
   <screen name="Config" position="fill" flags="wfNoBorder">
     <panel name="PigTemplate"/>
     <panel name="KeyMenuTemplate"/>
-    <widget name="config" position="520,70" size="740,200" scrollbarMode="showOnDemand"/>
+    <widget name="config" position="520,70" size="740,225" scrollbarMode="showOnDemand"/>
     <widget name="statusbar" position="520,330" size="740,20" font="Regular;18"/>
     <widget name="status" position="520,355" size="740,140" font="Console;16"/>
   </screen>

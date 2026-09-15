@@ -948,13 +948,14 @@
 		<panel name="SelectionTemplate"/>
 		<panel name="KeyMenuInfoTemplate"/>
 		<panel name="KeyVideoTemplate"/>
-		<widget source="session.CurrentService" render="PositionGauge" position="30,530" size="720,18" transparent="1" zPosition="4" pointer="dvr/position_pointer1.png:720,4" hidePointerOnZeroLength="1">
+		<eLabel position="30,538" size="720,10" backgroundColor="#80606060" zPosition="1"/>
+		<widget source="session.CurrentService" render="PositionGauge" position="30,534" size="720,18" transparent="1" zPosition="4" pointer="dvr/position_pointer1.png:720,4" hidePointerOnZeroLength="1">
 			<convert type="ServicePosition">Gauge</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="37,499" size="135,30" backgroundColor="transparent" transparent="1" zPosition="4" foregroundColor="grey" borderWidth="2" font="Regular;27" borderColor="black" valign="center" halign="left">
+		<widget source="session.CurrentService" render="Label" position="37,495" size="135,30" backgroundColor="transparent" transparent="1" zPosition="4" foregroundColor="grey" borderWidth="2" font="Regular;27" borderColor="black" valign="center" halign="left">
 			<convert type="ServicePosition">Position,ShowHours</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="502,499" size="240,30" backgroundColor="transparent" transparent="1" zPosition="4" foregroundColor="grey" borderWidth="2" font="Regular;27" borderColor="black" valign="center" halign="right">
+		<widget source="session.CurrentService" render="Label" position="502,495" size="240,30" backgroundColor="transparent" transparent="1" zPosition="4" foregroundColor="grey" borderWidth="2" font="Regular;27" borderColor="black" valign="center" halign="right">
 			<convert type="ServicePosition">Remaining,Plus,ShowHours</convert>
 		</widget>
 		<widget source="Service" render="Label" position="30,562" size="120,36" font="Regular;30" foregroundColor="grey" halign="left" transparent="1">

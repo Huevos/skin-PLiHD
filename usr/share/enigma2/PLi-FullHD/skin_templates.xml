@@ -27,7 +27,7 @@
 		<widget source="global.CurrentTime" render="Label" position="1478,10" size="100,30" backgroundColor="transparent" noWrap="1" zPosition="1" foregroundColor="foreground" borderWidth="2" font="Regular;25" borderColor="black" valign="center" halign="right">
 			<convert type="ClockToText">Format:%-H:%M</convert>
 		</widget>
-		<widget source="session.CurrentService" render="Label" position="c-109,105" size="219,31" zPosition="2" backgroundColor="transparent" foregroundColor="foreground" font="Regular;30" borderWidth="2" valign="top" halign="center">
+		<widget source="session.CurrentService" render="Label" position="c-109,105" size="219,36" zPosition="2" backgroundColor="transparent" foregroundColor="foreground" font="Regular;30" borderWidth="2" valign="top" halign="center">
 			<convert type="PliExtraInfo">ResolutionString</convert>
 		</widget>
 		<eLabel position="42,105" size="225,195" backgroundColor="transparent" borderWidth="2" font="Regular;37" borderColor="black" halign="left" text=">" zPosition="1"/>
